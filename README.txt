@@ -7,9 +7,9 @@ object graph, regardless of the underlying feed format.
 
 == Download
 
-* gem install feed-normalizer
-* http://rubyforge.org/projects/feed-normalizer
-* svn co http://feed-normalizer.googlecode.com/svn/trunk
+* gem install openlogic-feed-normalizer
+* http://rubyforge.org/projects/openlogic-feed-normalizer
+* http://github.com/toddthomas/feed-normalizer
 
 == Usage
 

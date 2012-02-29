@@ -1,3 +1,13 @@
+1.5.3
+
+ * Fix a stack overflow error that occurred when calling unimplemented
+   methods on Feeds or Entrys on Ruby 1.9.x. For example, calling flatten
+   on an array of Entrys causes to_ary to be sent to each of the Entrys,
+   which would overflow the stack.
+
+1.5.2
+ [unknown]
+
 1.5.1
 
  * Fix a bug that was breaking the parsing process for certain feeds. [reported by: Patrick Minton]
