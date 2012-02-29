@@ -6,8 +6,8 @@ require 'feed-normalizer'
 
 Hoe.spec("openlogic-feed-normalizer") do |s|
   s.version = "1.5.3"
-  s.author = "Andrew A. Smith"
-  s.email = "todd.thomas@openlogic.com"
+  s.developer "Andrew A. Smith", "andy@tinnedfruit.org"
+  s.developer "Todd Thomas", "todd.thomas@openlogic.com"
   s.url = "http://github.com/toddthomas/feed-normalizer"
   s.summary = "Extensible Ruby wrapper for Atom and RSS parsers"
   s.description = s.paragraphs_of('README.txt', 1..2).join("\n\n")
